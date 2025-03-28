@@ -7,7 +7,7 @@ intents.message_content = True  # Mesaj içeriğine erişim sağlar
 intents.members = True  # Sunucudaki tüm üyelere erişim sağlar
 
 # Kullanıcıdan Token'ı al
-TOKEN = input("Bot Token'ınızı girin: ")
+TOKEN = input("MTM1NTI3MDU3NjgzODU0MTMzMw.GwEwRg.kmL5668KEmh6IYcZmdea8IZYArGFiDcqPbhes8 ")
 
 # Prefix'i belirleyin
 bot = commands.Bot(command_prefix='!!', intents=intents)
@@ -36,4 +36,4 @@ async def duyur_error(ctx, error):
     if isinstance(error, commands.MissingPermissions):
         await ctx.send("Bu komutu kullanmak için yetkiniz yok.")
 
-bot.run(TOKEN)
+bot.run(MTM1NTI3MDU3NjgzODU0MTMzMw.GwEwRg.kmL5668KEmh6IYcZmdea8IZYArGFiDcqPbhes8)
